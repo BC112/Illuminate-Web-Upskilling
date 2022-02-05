@@ -1,0 +1,54 @@
+.headerContainer {
+    display: flex;
+    height: 87px;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+}
+
+.hekto {
+    font-family: Josefin Sans;
+    font-size: 34px;
+    color: #0D0E43;
+    font-weight: bold;
+}
+
+.leftContainer {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 200px;
+}
+
+.rightContainer {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.search {
+    height: 40px;
+    width: 250px;
+    border: 2px solid #E7E6EF;
+    box-sizing: border-box;
+}
+
+.searchImage {
+    display: flex;
+    height: 40px;
+    width: 51px;
+    background-color: #FB2E86;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation {
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+} 
