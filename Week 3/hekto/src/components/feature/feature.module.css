@@ -1,0 +1,102 @@
+.mainContainer {
+    display: flex;
+    height: 579px;
+    align-items: center;
+    background-color: #F1F0FF;
+}
+
+.leftContainer {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.rightContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 60%;
+}
+
+.title {
+    height: 92px;
+    width: 507px;
+    font-family: Josefin Sans;
+    font-size: 35px;
+    line-height: 46px;
+    letter-spacing: 0.040em;
+    text-align: left;
+    font-weight: 600;
+    color: #151875;
+}
+
+.dot {
+    height: 11px;
+}
+
+.bulletPointsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 500px;
+}
+
+.bulletPointContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+.bulletPoint {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.015em;
+    text-align: left;
+    color: #ACABC3;
+    padding: 10px;
+}
+
+.bottomContainer {
+    display: flex;
+    align-items: center;
+}
+
+.addCartButton {
+    display: flex;
+    height: 45px;
+    width: 157px;
+    border-radius: 3px;
+    background-color: #FB2E86;
+    font-family: Josefin Sans;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    color: white;
+}
+
+.bottomText {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: flex-start;
+}
+
+.sofaDescription {
+    font-family: Josefin Sans;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    color: #151875;
+}
+
+.price {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+}

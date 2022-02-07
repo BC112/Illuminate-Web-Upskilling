@@ -13,6 +13,16 @@
     font-weight: bold;
 }
 
+.highlight {
+    display: flex;
+    color: #FB2E86;
+    align-items: baseline;
+}
+
+.vector {
+    padding: 3px;
+}
+
 .leftContainer {
     display: flex;
     flex: 1;
